@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('nama_mahasiswa');
             $table->string('ktm');
             $table->string('kelas');
-            $table->string('ketegori_masalah');
+            $table->string('kategori_masalah');
             $table->string('masalah');
             $table->timestamps();
             $table->softDeletes();

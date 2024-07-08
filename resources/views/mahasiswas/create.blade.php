@@ -36,12 +36,12 @@
                             </div>
                             <div class="form-group">
                                 <label for="kategori_masalah">Kategori masalah:</label>
-                                <select class="form-select" aria-label="Kategori masalah">
+                                <select name="kategori_masalah" class="form-select" required>
                                     <option value="Lupa password/Student portal">Lupa password/Student portal</option>
                                     <option value="Email tidak bisa login">Email tidak bisa login</option>
                                     <option value="Cetak kartu">Cetak kartu</option>
                                     <option value="Absensi">Absensi</option>
-                                  </select>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="masalah">Masalah:</label>

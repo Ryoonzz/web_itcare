@@ -31,7 +31,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($mahasiswa as $mahasiswa)
+                                @foreach ($mahasiswas as $mahasiswa)
                                     <tr>
                                         <td>{{ $mahasiswa->tanggal }}</td>
                                         <td>{{ $mahasiswa->nama_mahasiswa }}</td>
